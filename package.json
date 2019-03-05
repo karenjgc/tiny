@@ -5,9 +5,7 @@
   "main": "index.js",
   "repository": "karenjgc/tiny",
   "dependencies": {
-    "bootstrap": "*"
-  },
-  "devDependencies": {
+    "bootstrap": "*",
     "@fortawesome/fontawesome-free": "*"
   },
   "scripts": {
