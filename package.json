@@ -5,9 +5,10 @@
   "main": "index.js",
   "repository": "karenjgc/tiny",
   "dependencies": {
-    "bootstrap": "*",
-    "@fortawesome/fontawesome-svg-core": "*",
-    "@fortawesome/free-solid-svg-icons": "*"
+    "bootstrap": "*"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "*"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
