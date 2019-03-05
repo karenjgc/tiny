@@ -1,5 +1,6 @@
 module.exports = function tiny(string) {
-  const commands = [
+    //Thanks for the genius idea: https://ines.io/blog/custom-console-logging-emoji
+    const commands = [
         { emoji: '💩', name: 'poo' }
     ];
 
