@@ -4,7 +4,7 @@ Tiny npm to add the following dependencies on Angular:
 - Bootstrap
 - Fontawesome
 
-Also includes two scss file with classes and colors that my team (delfinosos) and I normally use <3
+Also includes two scss file with classes and colors that my team (delfinosos🐬) and I normally use <3
 
 ## Install
 
