@@ -4,5 +4,5 @@ module.exports = function tiny(string) {
     ];
 
     commands.forEach(({ name, emoji }) => window.console[name] = (...args) => console.log(emoji + ' ' + args.join(', ')));
-    console.poo('Happy Poo!');
+    console.poo(string);
 };
