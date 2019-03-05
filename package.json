@@ -1,0 +1,12 @@
+{
+  "name": "@karenjgc/tiny",
+  "version": "1.0.0",
+  "description": "Haciendo pruebas de scripts npm",
+  "main": "index.js",
+  "repository": "karenjgc/tiny",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
+}
