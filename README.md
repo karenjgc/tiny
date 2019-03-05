@@ -1,6 +1,6 @@
 # tiny
 
-Tiny npm to add the following dependencies:
+Tiny npm to add the following dependencies on Angular:
 - Bootstrap
 - Fontawesome
 
