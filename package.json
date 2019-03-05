@@ -1,6 +1,6 @@
 {
   "name": "@karenjgc/tiny",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "description": "Haciendo pruebas de scripts npm",
   "main": "index.js",
   "repository": "karenjgc/tiny",
