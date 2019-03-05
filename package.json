@@ -6,9 +6,8 @@
   "repository": "karenjgc/tiny",
   "dependencies": {
     "bootstrap": "*",
-    "@fortawesome/fontawesome": "*",
-    "@fortawesome/fontawesome-free-regular": "*",
-    "@fortawesome/fontawesome-free-solid": "*"
+    "@fortawesome/fontawesome-svg-core": "*",
+    "@fortawesome/free-solid-svg-icons": "*"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
