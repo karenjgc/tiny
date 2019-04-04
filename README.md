@@ -22,5 +22,10 @@ Add on your angular.json file on the "scripts" section the following line:
 
 Add on your styles.scss file the following line:
 
-"@import "~bootstrap/scss/bootstrap"
-"node_modules/@fortawesome/fontawesome-free/js/all.js" 
+"@import '~bootstrap/scss/bootstrap'"
+
+## Estilos Base 
+
+Add on your styles.scss file the following line:
+
+"@import '~@karenjgc/tiny/scss/style.scss'"
