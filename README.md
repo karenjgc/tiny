@@ -13,7 +13,7 @@ $ npm install @karenjgc/tiny
 ```
 Add on your styles.scss file the following line:
 
-"@import '~@karenjgc/tiny/scss/style.scss'"
+@import '~@karenjgc/tiny/scss/style.scss'
 
 ## Fontawesome
 
@@ -25,6 +25,6 @@ Add on your angular.json file on the "scripts" section the following line:
 
 Add on your styles.scss file the following line:
 
-"@import '~bootstrap/scss/bootstrap'"
+@import '~bootstrap/scss/bootstrap'
 
 
