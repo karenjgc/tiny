@@ -17,3 +17,10 @@ $ npm install @karenjgc/tiny
 Add on your angular.json file on the "scripts" section the following line:
 
 "node_modules/@fortawesome/fontawesome-free/js/all.js" 
+
+## Bootstrap
+
+Add on your styles.scss file the following line:
+
+"@import "~bootstrap/scss/bootstrap"
+"node_modules/@fortawesome/fontawesome-free/js/all.js" 
