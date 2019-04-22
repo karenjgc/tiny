@@ -11,9 +11,20 @@ Also includes two scss file with classes and colors that my team (delfinosos🐬
 ```
 $ npm install @karenjgc/tiny
 ```
+Add on your styles.scss file the following line:
+
+@import '~@karenjgc/tiny/scss/style.scss'
 
 ## Fontawesome
 
 Add on your angular.json file on the "scripts" section the following line:
 
 "node_modules/@fortawesome/fontawesome-free/js/all.js" 
+
+## Bootstrap
+
+Add on your styles.scss file the following line:
+
+@import '~bootstrap/scss/bootstrap'
+
+
