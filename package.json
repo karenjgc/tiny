@@ -1,7 +1,7 @@
 {
   "name": "@karenjgc/tiny",
-  "version": "3.0.5",
-  "description": "Haciendo pruebas de scripts npm",
+  "version": "3.0.6",
+  "description": "Estilos base",
   "main": "index.js",
   "repository": "karenjgc/tiny",
   "dependencies": {

@@ -65,11 +65,11 @@ $tamanos: (
 
 @each $tamano in $tamanos {
     .w-#{nth($tamano,1)}{
-        width: #{nth($tamano,2)}% !important;
+        width: #{nth($tamano,2) + '%'} !important;
     }
     
     .h-#{nth($tamano,1)}{
-        height: #{nth($tamano,2)}% !important;
+        height: #{nth($tamano,2) + '%'} !important;
     }
 }
 
