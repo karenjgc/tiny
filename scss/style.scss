@@ -23,3 +23,35 @@
 ::-webkit-scrollbar-thumb:hover {
     background: #555; 
 }
+
+/* Ng Modal */
+.modal-dialog{
+    max-width: 75% !important;
+}
+
+.modal-content{
+    border-radius: 1.25rem !important;
+}
+
+/* Necesario para utilizar owl datepicker en modales */
+.cdk-overlay-container{
+ z-index: 1051;
+}
+
+/* Owl DatePicker */
+.owl-dt-calendar-table .owl-dt-calendar-cell-selected{
+    background-color: #FF8200;
+}
+
+/* Bootstrap */
+.dropdown-item.active{
+    background-color: rgba(255, 130, 0, 0.90) !important;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #ffa84d;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(255, 168, 77, 0.25);
+}
