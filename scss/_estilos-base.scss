@@ -35,9 +35,9 @@ $img-tamanos: (
 );
 
 @each $nombre-tamano, $tamano in $img-tamanos {
-    .img-#{nth($imgTamano,1)}{
-        height: $imgTamano !important;
-        width: $imgTamano !important;
+    .img-#{$nombre-tamano}{
+        height: $tamano !important;
+        width: $tamano !important;
     }
 }
 
