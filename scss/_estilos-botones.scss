@@ -1,0 +1,45 @@
+//---------------------------- Botones -----------------------------------------
+.btn {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12) !important;
+
+    &:hover{
+        box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2) !important;  
+    }
+}
+
+//Las imagenes deben estar ubicadas en la carpeta de assets/images y que su tamaño sea de 64px.
+$botones-img: (
+    'editar': './assets/images/btn/btn-editar.png',
+    'eliminar': './assets/images/btn/btn-eliminar.png',
+    'ver': './assets/images/btn/btn-ver.png'
+);
+
+@mixin boton-imagen($img-btn: null, $tamano-btn: null){
+    &::after{
+        @if ($img-btn == null){
+            content: 'undefined'
+        }@else{
+            background-image: url($img-btn);
+        }
+
+        content:"";
+        background-size: $tamano-btn;
+        width: $tamano-btn; 
+        height: $tamano-btn;
+        display: inline-block;
+    }
+}
+
+@each $nombre-tamano, $tamano in $img-tamanos {
+    @each $nombre, $imagen in $botones-img {
+        .btn-#{$nombre}-#{$nombre-tamano}{
+            @include boton-imagen($imagen, $tamano);
+
+            height: $tamano;
+            width: $tamano;
+            cursor: pointer;
+            border-radius: 50%;
+            background-color: white;
+        }
+    }
+}

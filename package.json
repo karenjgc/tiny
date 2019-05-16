@@ -1,7 +1,7 @@
 {
   "name": "@karenjgc/tiny",
-  "version": "3.0.8",
-  "description": "Estilos base",
+  "version": "3.1.0",
+  "description": "Estilos base, estilos colores, estilos botones",
   "main": "index.js",
   "repository": "karenjgc/tiny",
   "dependencies": {

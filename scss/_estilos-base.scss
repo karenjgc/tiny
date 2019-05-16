@@ -1,5 +1,5 @@
 //----------------------- Colores Base --------------------------------
-$coloresBase: (
+$colores-base: (
     'negro':#303030,
     'blanco':#ffffff,
     'beige': #EEEBE6,
@@ -11,33 +11,33 @@ $coloresBase: (
     'cafe-oscuro' : #32281F
 );
 
-@each $colorBase in $coloresBase {
-    .bg-#{nth($colorBase,1)}{
-        background-color: nth($colorBase,2) !important;
+@each $nombre-color, $color in $colores-base {
+    .bg-#{$nombre-color}{
+        background-color: $color !important;
     }
     
-    .border-#{nth($colorBase,1)}{
-      border-color: nth($colorBase,2) !important;
+    .border-#{$nombre-color}{
+      border-color: $color !important;
     }
     
-    .color-#{nth($colorBase,1)}{
-      color: nth($colorBase,2) !important;
+    .color-#{$nombre-color}{
+      color: $color !important;
     }
 }
 
 //----------------------- Tamaños Imagenes --------------------------------
-$imgTamanos: (
-    'xs':1,
-    'sm':1.5,
-    'md':2,
-    'lg':2.5,
-    'xl':3
+$img-tamanos: (
+    'xs':1rem,
+    'sm':1.5rem,
+    'md':2rem,
+    'lg':2.5rem,
+    'xl':3rem
 );
 
-@each $imgTamano in $imgTamanos {
+@each $nombre-tamano, $tamano in $img-tamanos {
     .img-#{nth($imgTamano,1)}{
-        height: #{nth($imgTamano,2)}rem !important;
-        width: #{nth($imgTamano,2)}rem !important;
+        height: $imgTamano !important;
+        width: $imgTamano !important;
     }
 }
 
@@ -63,18 +63,18 @@ $tamanos: (
     '95':95
 );
 
-@each $tamano in $tamanos {
-    .w-#{nth($tamano,1)}{
-        width: #{nth($tamano,2) + '%'} !important;
+@each $numero-tamano, $tamano in $tamanos {
+    .w-#{$numero-tamano}{
+        width: #{$tamano + '%'} !important;
     }
     
-    .h-#{nth($tamano,1)}{
-        height: #{nth($tamano,2) + '%'} !important;
+    .h-#{$numero-tamano}{
+        height: #{$tamano + '%'} !important;
     }
 }
 
 //----------------------- Tamaños de Fuente --------------------------------
-$tamanosFuente: (
+$fuente-tamanos: (
     '8':8,
     '10':10,
     '12':12,
@@ -84,23 +84,23 @@ $tamanosFuente: (
     '20':20,
 );
 
-@each $tamanoFuente in $tamanosFuente {
-    .font-#{nth($tamanoFuente,1)}{
-        font-size: #{nth($tamanoFuente,2)}px !important;
+@each $numero-fuente, $tamano in $fuente-tamanos {
+    .font-#{$numero-fuente}{
+        font-size: #{$tamano}px !important;
     }
 }
 
 //----------------------- Tipo de Cursores --------------------------------
-$cursorTipos: (
+$cursor-tipos: (
     'pointer':pointer,
     'not-allowed':not-allowed,
     'none':none,
     'move':all-scroll,
 );
 
-@each $cursorTipo in $cursorTipos {
-    .cursor-#{nth($cursorTipo,1)}{
-        cursor: nth($cursorTipo,2) !important;
+@each $nombre-cursos, $cursor in $cursor-tipos {
+    .cursor-#{$nombre-cursos}{
+        cursor: $cursor !important;
     }
 }
 
@@ -191,13 +191,3 @@ $cursorTipos: (
     height: 100%;
     width: 1px;
 }
-
-.btn {
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12) !important;
-
-    &:hover{
-        box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2) !important;  
-    }
-}
-
-
