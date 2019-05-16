@@ -9,9 +9,9 @@
 
 //Las imagenes deben estar ubicadas en la carpeta de assets/images y que su tamaño sea de 64px.
 $botones-img: (
-    'editar': './assets/images/btn/btn-editar.png',
-    'eliminar': './assets/images/btn/btn-eliminar.png',
-    'ver': './assets/images/btn/btn-ver.png'
+    'editar': 'https://sie.iest.edu.mx/includes/images/btn-angular/btn-editar.png',
+    'eliminar': 'https://sie.iest.edu.mx/includes/images/btn-angular/btn-eliminar.png',
+    'ver': 'https://sie.iest.edu.mx/includes/images/btn-angular/btn-ver.png'
 );
 
 @mixin boton-imagen($img-btn: null, $tamano-btn: null){
