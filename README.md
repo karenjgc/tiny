@@ -11,6 +11,8 @@ Also includes two scss file with classes and colors that my team (delfinosos🐬
 ```
 $ npm install @karenjgc/tiny
 ```
+## Classes and colors
+
 Add on your styles.scss file the following line:
 
 @import '~@karenjgc/tiny/scss/style.scss'
